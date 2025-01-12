@@ -3,6 +3,7 @@ const Blackboard = require("../models/blackboard");
 
 const adicionarProduto = async (blackboard) => {
 
+    // procura o blackboard no servidor e junta com o qeu foi enviado
     await blackboard.save();
 }
 
