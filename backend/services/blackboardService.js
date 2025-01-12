@@ -9,6 +9,7 @@ const adicionarProduto = async (blackboard) => {
 
 const atualizarProduto = async (blackboard) => {
 
+    // procura o blackboard no servidor e junta com o qeu foi enviado
     await blackboard.save();
 }
 //....
